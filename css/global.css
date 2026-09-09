@@ -12,6 +12,12 @@
 
     --title: 'Poppins', sans-serif;
     --text: 'Work Sans', Arial, sans-serif;
+
+    --card-content-depoiments-background: #2E2540;
+    --depoiments-backgroung: #0B0A12;
+    --text-color: white;
+    --purple: #A55AD7;
+    --font-size: 16px;
 }
 
 body {
