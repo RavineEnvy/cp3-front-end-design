@@ -1,5 +1,51 @@
+header {
+    margin: 20px 110px 10px 110px;
+}
+
+.circle-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: black 0%;
+    border: 2px solid #A55AD7;
+    border-radius: 50%;
+}
+
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    font-size: 12px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: var(--title);
+    font-weight: 550;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--text);
+    font-weight: 400;
+}
+
+.btn-fale {
+    background-color: var(--brand-color);
+    padding: 15px;
+    border-radius: 10px;
 }

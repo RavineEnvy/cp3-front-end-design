@@ -1,13 +1,26 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 :root {
+    --background-color-header: #3B2458;
+    --brand-color: #A55AD7;
+
+    --title: 'Poppins', sans-serif;
+    --text: 'Work Sans', Arial, sans-serif;
+
     --card-content-depoiments-background: #2E2540;
     --depoiments-backgroung: #0B0A12;
     --text-color: white;
     --purple: #A55AD7;
     --font-size: 16px;
+}
+
+body {
+    background-color: var(--background-color-header);
+    color: white;
 }
