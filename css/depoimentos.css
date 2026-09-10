@@ -7,7 +7,8 @@
 .title-page-depoiments {
     text-align: center;
     margin: 20px;
-    color: var(--purple);
+    color: var(--brand-color);
+    font-family: var(--title);
 }
 
 .sub-title-depoiments {
@@ -25,6 +26,10 @@
 }
 
 .card-content-depoiments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 300px;
     min-width: 250px;
     min-height: 250px;
@@ -40,8 +45,12 @@
     width: 54px;
     height: 54px;
     border-radius: 50%;
-    background-color: var(--purple);
+    background-color: var(--brand-color);
     margin-bottom: 20px;
+}
+
+.card-content-text-depoiments{
+    font-family: var(--card-text);
 }
 
 .card-content-name-depoiments{
