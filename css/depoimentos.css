@@ -1,19 +1,7 @@
 .depoiments{ 
     padding: 50px;
-    background-color: var(--depoiments-backgroung);
+    background-color: var(--backgroung-color);
     
-}
-
-.title-page-depoiments {
-    text-align: center;
-    margin: 20px;
-    color: var(--brand-color);
-    font-family: var(--title);
-}
-
-.sub-title-depoiments {
-    padding-top: 5px;
-    color: var(--text-color);
 }
 
 .card-depoiments{ 

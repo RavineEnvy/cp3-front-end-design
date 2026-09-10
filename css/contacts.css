@@ -1,0 +1,58 @@
+.contacts {
+    background-color: var(--backgroung-color);
+    margin-top: -20px;
+}
+
+.card-contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-image-contacts{
+    width: 350px;
+    height: 250px;
+    margin: 50px 40px 100px 180px;
+
+}
+
+.card-content-contacts {
+    
+    background-color: var(--card-content-contacts-background-color);
+    margin-bottom: 80px;
+    width: 450px;
+    height: 400px;
+    border-radius: 22px;
+    border: 2px solid var(--card-content-contacts-border-color);
+    
+}
+
+.card-content-form-contacts{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 10px;
+}
+
+.card-content-form-title-contacts{
+    font-family: var(--title);
+}
+
+.card-content-form-sub-title-contacts{
+    font-family: var(--text);
+    font-size: 11px;
+    font-weight: 300;
+    color: var(--card-content-form-text-contacts-color);
+}
+
+.card-content-form-label-contacts{
+    font-family: var(--text);
+    font-weight: 400;
+}
+
+.card-content-form-input-contacts{
+    border: 2px solid var(--card-content-contacts-border-color);
+    border-radius: 6px;
+    background-color: var(--card-content-form-input-contacts-background-color);
+    width: 387px;
+}
