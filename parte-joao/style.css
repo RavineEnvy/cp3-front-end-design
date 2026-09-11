@@ -23,15 +23,19 @@
 
 .content-service h3 {
     color: #A55AD7;
-    font-size: 20px;
+    font-size: 13px;
+    font-family: var(--text);
 }
 
 .content-service h2 {
-    font-size: 40px;
+    font-size: 38px;
+    font-family: var(--title);
+    font-weight: 900;
 }
 
 .content-service p {
     color: #C8BDD4;
+    font-family: var(--text);
 
 }
 
@@ -50,10 +54,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: #2E2540;
 
-    width: 100%;
+    width: 90%;
     height: 80%;
     border-radius: 12px;
 
@@ -61,12 +64,16 @@
 
 .content-cards article h4 {
     color: #F7F4FB;
-    font-size: 12px;
+    font-size: 14px;
+    font-family: var(--title);
+    margin-bottom: 15px;
+    
 }
 
 .content-cards article p {
     color: #C8BDD4;
-    font-size: 10px;
+    font-size: 14px;
+    font-family: var(--text);
 }
 
 .card1 {

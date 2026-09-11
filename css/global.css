@@ -42,8 +42,14 @@ body {
     font-family: var(--title);
 }
 
+.title{
+    font-family: var(--title);
+    font-size: 100px;
+}
+
 
 .sub-title {
     padding-top: 5px;
-    color: var(--text-color);   
+    color: var(--text-color); 
+    font-family: var(--text);  
 }
