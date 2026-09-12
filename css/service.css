@@ -1,6 +1,9 @@
 .content-service-and-cards {
     background-color: #0B0A12;
     padding-bottom: 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
 }
 
 .content-service {
@@ -15,6 +18,9 @@
     color: white;
     gap: 10px;
     margin-top: 50px;
+    flex-grow: 1;
+    flex-shrink: 1; 
+    flex-basis: 0%;
 }
 
 .content-service h3 {
@@ -45,6 +51,8 @@
     grid-template-columns: 360px 360px 360px;
     grid-template-rows: 200px 200px;
     gap: 25px;
+
+    padding-bottom: 50px;
 }
 
 .content-cards article {
