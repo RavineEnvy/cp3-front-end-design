@@ -21,7 +21,7 @@
     background-color: var(--card-content-contacts-background-color);
     margin-bottom: 80px;
     width: 450px;
-    height: 400px;
+    height: 450px;
     border-radius: 22px;
     border: 2px solid var(--card-content-contacts-border-color);
     
@@ -55,4 +55,20 @@
     border-radius: 6px;
     background-color: var(--card-content-form-input-contacts-background-color);
     width: 387px;
+    height: 30px;
+}
+
+#mensagem{
+    height: 60px;
+}
+
+.card-content-form-button-contacts{
+    width: 109px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: var(--brand-color);
+    border: 0px;
+    color: var(--text-color);
+    font-family: var(--text);
+    font-size: 12px;
 }
