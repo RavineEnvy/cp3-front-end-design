@@ -1,92 +1,265 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="container header-content">
+      <div class="container header-content">
+        <div class="circle-logo">
+          <div class="circle"></div>
+          <p class="header-logo">NovaCore</p>
+        </div>
+        <nav class="header-nav">
+          <a href="#soluções">Soluções</a>
+          <a href="#Sobre">Sobre nós</a>
+          <a href="#Clientes">Clientes</a>
+          <a href="#Contato">Contato</a>
+          <a class="btn-fale" href="#Fale-Conosco">FALE CONOSCO</a>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <h1 class="hero-title">
+        Tecnologia para acelerar ideias, equipes e negócios
+      </h1>
+      <p class="hero-sub">
+        Soluções digitais sob medida para empresas que querem inovar com
+        estratégia, clareza e eficiência.
+      </p>
+      <a class="btn-conhecer" href="#conhecer"> QUERO CONHECER </a>
+    </section>
+    <main>
+      <section id="soluções" class="content-service-and-cards">
+        <div class="content-service">
+          <h3>NOSSO TRABALHO</h3>
+          <h2>Serviço</h2>
+          <p>
+            A NovaCore combina estratégia, design e desenvolvimento para criar
+            soluções digitais que simplicam
+          </p>
+          <p>processos e fazem negócios evoluírem</p>
+        </div>
+        <div class="content-cards">
+          <article class="card1">
+            <h4>DESENVOLVIMENTO WEB</h4>
+            <p>
+              Sites, portais e plataformas com foco em performance, usabilidade
+              e escalabilidade
+            </p>
+          </article>
+          <article class="card2">
+            <h4>APLICAÇÃO MOBILE</h4>
+            <p>
+              Experiências mobile intuitivas para aproximas empresas e usuarios
+              em diferentes jornadas digitais
+            </p>
+          </article>
+          <article class="card3">
+            <h4>AUTOMAÇÃO DE PROCESSOS</h4>
+            <p>
+              Fluxos mais eficientes para reduzir tarefas manuais e melhorar a
+              produtividade das equipes
+            </p>
+          </article>
+          <article class="card4">
+            <h4>INTEGRAÇÃO DE SISTEMAS</h4>
+            <p>
+              Conexão entre ferramentas, APIs e plataformas para centralizar
+              operações e informações
+            </p>
+          </article>
+          <article class="card5">
+            <h4>DADOS ANALYTICS</h4>
+            <p>
+              Dashboards e soluções analiticas para transformar dados em
+              decisões mais inteligentes
+            </p>
+          </article>
+          <article class="card6">
+            <h4>UX E INTERFACE</h4>
+            <p>
+              Interfaces claras, funcionais e atrativas para melhorar a
+              experiência dos produtos digitais
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="Sobre" class="secao-sobre">
+        <div class="conteiner conteiner-sobre">
+          <div class="cabecalho-sobre">
+            <span class="tag-secao">NOVACORE</span>
+            <h2 class="titulo-secao">Sobre nós</h2>
+          </div>
+
+          <div class="conteudo-sobre">
+            <div class="texto-sobre">
+              <h3>ATUAÇÃO EM DIFERENTES MERCADOS E SOLUÇÕES DIGITAIS</h3>
+              <p>
+                Somos uma empresa de tecnologia focada em desenvolver soluções
+                digitais para negócios que buscam inovação com consistência.
+                Atuamos lado a lado com nossos clientes na criação de produtos,
+                melhoria de processos e evolução tecnológica.
+              </p>
+              <p>
+                Nossa trajetória é marcada pela colaboração entre estratégia,
+                design e desenvolvimento. Com uma equipe multidisciplinar,
+                entregamos soluções personalizadas para diferentes segmentos e
+                desafios.
+              </p>
+            </div>
+            <img
+              class="img-bolhas"
+              src="img/img-bolhas.png"
+              alt="Imagem de bolhas"
+            />
+          </div>
+
+          <div class="secao-equipe">
+            <h3 class="titulo-equipe">Nossa gente</h3>
+            <p class="subtitulo-equipe">
+              Tecnologia é feita por pessoas. Nosso time une visão estratégica,
+              capacidade técnica e colaboração.
+            </p>
+
+            <div class="grade-equipe">
+              <div class="cartao-equipe">
+                <div class="envoltorio-avatar">
+                  <div class="espaco-avatar"></div>
+                </div>
+                <div class="info-cartao">
+                  <h4>Marina Costa</h4>
+                  <p>CEO</p>
+                </div>
+              </div>
+
+              <div class="cartao-equipe">
+                <div class="envoltorio-avatar">
+                  <div class="espaco-avatar"></div>
+                </div>
+                <div class="info-cartao">
+                  <h4>Lucas Almeida</h4>
+                  <p>CTO</p>
+                </div>
+              </div>
+
+              <div class="cartao-equipe">
+                <div class="envoltorio-avatar">
+                  <div class="espaco-avatar"></div>
+                </div>
+                <div class="info-cartao">
+                  <h4>Renata Moura</h4>
+                  <p>Head de Produto</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Clientes" class="depoiments">
+        <div class="title-page">
+            <h5 class="title-dep">NOSSOS CLIENTES</h5>
+            <h2 class="sub-title-dep">Depoimentos</h2>
+        </div>
+        <div class="card-depoiments">
+            <div class="card-content-depoiments" >
+                <div class="card-content-circle-depoiments">
+                </div>
+                <div class="card-content-text-depoiments">
+                    <p>“A parceria trouxe mais clareza para nossos processos e acelerou a entrega de um produto que estava parado há meses.”</p>
+                    <b class="card-content-name-depoiments">Ana Beatriz Silva</b>
+                </div>
+            
+            </div>
+            
+            <div class="card-content-depoiments">
+                <div class="card-content-circle-depoiments">
+                </div>
+                <div class="card-content-text-depoiments">
+                    <p>“O time entendeu nosso negócio rapidamente e transformou necessidades complexas em uma experiência simples para o
+                    usuário.”</p>
+                    <b class="card-content-name-depoiments">Carlos Eduardo Lima</b>
+                </div>
+            
+            </div>
+            
+            <div class="card-content-depoiments">
+                <div class="card-content-circle-depoiments">
+                </div>
+                <div class="card-content-text-depoiments">
+                    <p>“Conseguimos reduzir retrabalho e melhorar nossa operação sem perder qualidade na experiência digital.”</p>
+                    <b class="card-content-name-depoiments">Fernanda Rocha</b>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="title-page">
+            <h5 class="title-dep">FALE COM A GENTE</h5>
+            <h2 class="sub-title-dep">Contato </h2>
+        </div>
+        <div class="card-contacts">
+            <img src="../img/Contact.png" alt="Imagem" class="card-image-contacts">
+            <div class="card-content-contacts">
+                <form action="" class="card-content-form-contacts">
+                    <h3 class="card-content-form-title-contacts">Conheça melhor nossas soluções</h3>
+                    <p class="card-content-form-sub-title-contacts">Preencha o formulário para entrar em contato com nossa equipe.</p>
+                    <h5 class="card-content-form-label-contacts">Nome</h5>
+                    <input type="text" name="name" id="name" class="card-content-form-input-contacts">
+                    <h5 class="card-content-form-label-contacts">E-Mail</h5>
+                    <input type="email" name="email" id="email" class="card-content-form-input-contacts">
+                    <h5 class="card-content-form-label-contacts">Empresa</h5>
+                    <input type="text" name="empresa" id="enpresa" class="card-content-form-input-contacts">
+                    <h5 class="card-content-form-label-contacts" >Mensagem</h5>
+                    <input type="text" name="mensagem" id="mensagem" class="card-content-form-input-contacts">
+                    <button type="submit" class="card-content-form-button-contacts">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="footer-novacore">
+    <div class="footer-content-container">
+        <div class="footer-logo-area">
             <div class="circle-logo">
                 <div class="circle"></div>
                 <p class="header-logo">NovaCore</p>
             </div>
-            <nav class="header-nav">
+        </div>
+        
+        <div class="footer-columns">
+            <div class="footer-col">
+                <h4>A EMPRESA</h4>
+                <a href="#">Nossa história</a>
                 <a href="#soluções">Soluções</a>
-                <a href="#Sobres">Sobre nós</a>
-                <a href="#Clientes">Clientes</a>
-                <a href="#Contato">Contato</a>
-                <a class="btn-fale" href="#Fale-Conosco">FALE CONOSCO</a>
-            </nav>
-        </div>
-    </header>
-    <section class="hero">
-        <h1 class="hero-title">
-            Tecnologia para acelerar ideias,
-            equipes e negócios
-        </h1>
-        <p class="hero-sub">
-            Soluções digitais sob medida para empresas que querem inovar com estratégia, clareza e eficiência.
-        </p>
-        <a class="btn-conhecer" href="#conhecer">
-            QUERO CONHECER
-        </a>
-    </section>
-    <main>
-         <section class="content-service-and-cards">
-        <div class="content-service">
-            <h3>NOSSO TRABALHO</h3>
-            <h2>Serviço</h2>
-            <p>A NovaCore combina estratégia, design e desenvolvimento para criar soluções digitais que simplicam
-            </p>
-            <p> processos
-                e fazem negócios evoluírem</p>
-
+                <a href="#">Trabalhe conosco</a>
+                <a href="#">Política de privacidade</a>
             </div>
-        <div class="content-cards">
-            <article class="card1">
-                <h4>DESENVOLVIMENTO WEB</h4>
-                <p>Sites, portais e plataformas com foco em performance, usabilidade e escalabilidade
-                </p>
-            </article>
-            <article class="card2">
-                <h4>APLICAÇÃO MOBILE
-                </h4>
-                <p>Experiências mobile intuitivas para aproximas empresas e usuarios em diferentes jornadas digitais
-                </p>
-            </article>
-            <article class="card3">
-                <h4>AUTOMAÇÃO DE PROCESSOS
-                </h4>
-                <p>Fluxos mais eficientes para reduzir tarefas manuais e melhorar a produtividade das equipes
-                </p>
-            </article>
-            <article class="card4">
-                <h4>INTEGRAÇÃO DE SISTEMAS
-                </h4>
-                <p>Conexão entre ferramentas, APIs e plataformas para centralizar operações e informações
-                </p>
-            </article>
-            <article class="card5">
-                <h4>DADOS ANALYTICS
-                </h4>
-                <p>Dashboards e soluções analiticas para transformar dados em decisões mais inteligentes
-                </p>
-            </article>
-            <article class="card6">
-                <h4>UX E INTERFACE
-                </h4>
-                <p>Interfaces claras, funcionais e atrativas para melhorar a experiência dos produtos digitais</p>
-            </article>
-
+            
+            <div class="footer-col">
+                <h4>CONTATO</h4>
+                <p>+55 11 4000-0000</p>
+                <p>contato@novacore.com</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>ONDE ESTAMOS</h4>
+                <p>Av. Paulista, 1000</p>
+                <p>Bela Vista — São Paulo, SP</p>
+                <p>CEP 01310-100</p>
+            </div>
         </div>
-
-    </section>
-    </main>
-</body>
-
+        
+        <div class="footer-bottom">
+            <p>© 2026 NovaCore. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+  </body>
 </html>

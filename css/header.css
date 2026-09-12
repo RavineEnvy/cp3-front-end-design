@@ -107,6 +107,8 @@ a:hover {
     border-radius: 10px;
     transition: background-color, font-weight 0.3s;
     font-size: 14px;
+
+    margin-bottom: 80px;
 }
 
 .btn-conhecer:hover {

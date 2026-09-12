@@ -1,0 +1,71 @@
+.footer-novacore {
+    background-color: #14111C;
+    padding-top: 50px;
+}
+
+.footer-content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer-logo-area {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 400px;
+    text-align: center;
+}
+
+.footer-col h4 {
+    color: var(--brand-color);
+    font-family: var(--text);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.footer-col a, 
+.footer-col p {
+    font-family: var(--text);
+    font-size: 13px;
+    color: var(--card-content-form-text-contacts-color);
+    line-height: 1.5;
+}
+
+.footer-col a:hover {
+    color: var(--text-color);
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #14111C;
+}
+
+.footer-bottom p {
+    border-top: 1px solid #6E3FA3;
+
+    padding-top: 30px;
+    font-family: var(--text);
+    font-size: 12px;
+    color: var(--card-content-form-text-contacts-color);
+
+    padding-bottom: 30px;
+}
